@@ -1,0 +1,17 @@
+package OrangeHRMFeatureFileLogin;
+
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = ".",tags = "@OrangeHRM",format = {"pretty","html:target/Destination"})
+
+public class RunTest {
+
+
+}
+
+
+
